@@ -10,10 +10,13 @@ var core_1 = require("@angular/core");
 var HelloWorldComponent = (function () {
     function HelloWorldComponent() {
     }
+    HelloWorldComponent.prototype.getMessage = function () {
+        return "Hello smart Guy";
+    };
     HelloWorldComponent = __decorate([
         core_1.Component({
             selector: 'hello',
-            template: '<strong> HeLLo world.THis is my first app. </strong>'
+            template: '<strong>  </strong>'
         })
     ], HelloWorldComponent);
     return HelloWorldComponent;
